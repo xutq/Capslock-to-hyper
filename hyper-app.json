@@ -1,0 +1,77 @@
+{
+    "description": "hyper-application",
+    "manipulators": [
+        {
+            "description": "e = finder",
+            "from": {
+                "key_code": "e",
+                "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+            },
+            "to": [{ "shell_command": "open -a finder" }],
+            "type": "basic"
+        },
+        {
+            "description": "option + e = safari",
+            "from": {
+                "key_code": "e",
+                "modifiers": { "mandatory": ["left_option","right_command", "right_control", "right_shift", "right_option"] }
+            },
+            "to": [{ "shell_command": "open -a Safari" }],
+            "type": "basic"
+        },
+        {
+            "description": "r = terminal",
+            "from": {
+                "key_code": "r",
+                "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+            },
+            "to": [{ "shell_command": "open -a terminal" }],
+            "type": "basic"
+        },
+        {
+            "description": "option + r = iTerm2",
+            "from": {
+                "key_code": "r",
+                "modifiers": { "mandatory": ["left_option","right_command", "right_control", "right_shift", "right_option"] }
+            },
+            "to": [{ "shell_command": "open -a iTerm" }],
+            "type": "basic"
+        },
+        {
+            "description": "b = Obsidian",
+            "from": {
+                "key_code": "b",
+                "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+            },
+            "to": [{ "shell_command": "open -a Obsidian" }],
+            "type": "basic"
+        },
+        {
+            "description": "t = notes",
+            "from": {
+                "key_code": "t",
+                "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+            },
+            "to": [{ "shell_command": "open -a notes" }],
+            "type": "basic"
+        },
+        {
+            "description": "option + f = Dictionary",
+            "from": {
+                "key_code": "f",
+                "modifiers": { "mandatory": ["left_option", "right_command", "right_control", "right_shift", "right_option"] }
+            },
+            "to": [{ "shell_command": "open -a Dictionary" }],
+            "type": "basic"
+        },
+        {
+            "description": "f = Alfred 4",
+            "from": {
+                "key_code": "f",
+                "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+            },
+            "to": [{ "shell_command": "open -a 'Alfred 4'" }],
+            "type": "basic"
+        }
+    ]
+}

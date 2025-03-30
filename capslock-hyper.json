@@ -1,0 +1,20 @@
+{
+    "description": "CapsLock (hold) to hyper",
+    "manipulators": [
+        {
+            "description": "capslock = hyper(hold)",
+            "from": {
+                "key_code": "caps_lock",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_shift",
+                    "modifiers": ["right_command", "right_control", "right_option"]
+                }
+            ],
+            "to_if_alone": [{ "key_code": "caps_lock" }],
+            "type": "basic"
+        }
+    ]
+}
