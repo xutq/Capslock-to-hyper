@@ -15,6 +15,15 @@
             ],
             "to_if_alone": [{ "key_code": "caps_lock" }],
             "type": "basic"
+        },
+        {
+            "description": "capslock + left option = capslock",
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+            },
+            "to": [{ "key_code": "caps_lock" }],
+            "type": "basic"
         }
     ]
 }
