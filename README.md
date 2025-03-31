@@ -10,6 +10,9 @@ Capslock serves via  [**Karabiner-Elements**](https://karabiner-elements.pqrs.or
 |   Key   |   MapsTo   | Comment                                            |
 | :-----: | :--------: | -------------------------------------------------- |
 | <kbd>⇪</kbd> Hold  |  <kbd>✱</kbd>  Hyper  | Hold Capslock to enable **Hyper** modifier.        |
+| <kbd>⇪</kbd> Hold + <kbd>␣</kbd> | <kbd>⇪</kbd> itself | default fallback plan |
+
+
 Note that <kbd>✱</kbd> is implemented as combination of **ALL RIGHT MODIFIERS**:  <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>⇧</kbd>. 
 Hold  **<kbd>✱</kbd> Hyper** to enable hyper functionalities. We will assume and omit that in subsequent document.
 
