@@ -47,15 +47,6 @@
             "type": "basic"
         },
         {
-            "description": "t = notes",
-            "from": {
-                "key_code": "t",
-                "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
-            },
-            "to": [{ "shell_command": "open -a notes" }],
-            "type": "basic"
-        },
-        {
             "description": "option + f = Dictionary",
             "from": {
                 "key_code": "f",
