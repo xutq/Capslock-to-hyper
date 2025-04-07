@@ -523,10 +523,10 @@
             "type": "basic"
         },
         {
-            "description": "command + h = shift + home",
+            "description": "shift + h = shift + home",
             "from": {
                 "key_code": "h",
-                "modifiers": { "mandatory": ["left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 {
@@ -537,10 +537,10 @@
             "type": "basic"
         },
         {
-            "description": "option + command + h = select whole line to head",
+            "description": "option + shift + h = select whole line to head",
             "from": {
                 "key_code": "h",
-                "modifiers": { "mandatory": ["left_option", "left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_option", "left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 { "key_code": "end" },
@@ -629,10 +629,10 @@
             "type": "basic"
         },
         {
-            "description": "command + n = shift + end",
+            "description": "shift + n = shift + end",
             "from": {
                 "key_code": "n",
-                "modifiers": { "mandatory": ["left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 {
@@ -643,10 +643,10 @@
             "type": "basic"
         },
         {
-            "description": "option + command + n = select whole",
+            "description": "option + shift + n = select whole",
             "from": {
                 "key_code": "n",
-                "modifiers": { "mandatory": ["left_option", "left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_option", "left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 { "key_code": "home" },
