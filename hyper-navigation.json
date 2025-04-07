@@ -2,10 +2,10 @@
     "description": "hyper-navigation",
     "manipulators": [
         {
-            "description": "command + j = shift + left",
+            "description": "shift + j = shift + left",
             "from": {
                 "key_code": "j",
-                "modifiers": { "mandatory": ["left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 {
@@ -16,10 +16,10 @@
             "type": "basic"
         },
         {
-            "description": "option + command + j = option + shift + left (select word ahead)",
+            "description": "option + shift + j = option + shift + left (select word ahead)",
             "from": {
                 "key_code": "j",
-                "modifiers": { "mandatory": ["left_option", "left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_option", "left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 {
@@ -103,10 +103,10 @@
             "type": "basic"
         },
         {
-            "description": "command + k = shift + down",
+            "description": "shift + k = shift + down",
             "from": {
                 "key_code": "k",
-                "modifiers": { "mandatory": ["left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 {
@@ -117,10 +117,10 @@
             "type": "basic"
         },
         {
-            "description": "option + command + k = option + shift + down (select para ahead)",
+            "description": "option + shift + k = option + shift + down (select para ahead)",
             "from": {
                 "key_code": "k",
-                "modifiers": { "mandatory": ["left_option", "left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_option", "left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 {
@@ -212,10 +212,10 @@
             "type": "basic"
         },
         {
-            "description": "command + i = shift + up",
+            "description": "shift + i = shift + up",
             "from": {
                 "key_code": "i",
-                "modifiers": { "mandatory": ["left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 {
@@ -226,10 +226,10 @@
             "type": "basic"
         },
         {
-            "description": "option + command + i = option + shift + up (select line above)",
+            "description": "option + shift + i = option + shift + up (select line above)",
             "from": {
                 "key_code": "i",
-                "modifiers": { "mandatory": ["left_option", "left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_option", "left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 {
@@ -321,10 +321,10 @@
             "type": "basic"
         },
         {
-            "description": "command + l = shift + right",
+            "description": "shift + l = shift + right",
             "from": {
                 "key_code": "l",
-                "modifiers": { "mandatory": ["left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 {
@@ -335,10 +335,10 @@
             "type": "basic"
         },
         {
-            "description": "option + command + l = option + shift + right (select word after)",
+            "description": "option + shift + l = option + shift + right (select word after)",
             "from": {
                 "key_code": "l",
-                "modifiers": { "mandatory": ["left_option", "left_command", "right_command", "right_control", "right_shift", "right_option"] }
+                "modifiers": { "mandatory": ["left_option", "left_shift", "right_command", "right_control", "right_shift", "right_option"] }
             },
             "to": [
                 {
