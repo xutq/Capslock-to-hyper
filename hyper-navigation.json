@@ -216,16 +216,7 @@
             ],
             "type": "basic"
         },
-        {
-            "description": "command + u = mouse left click",
-            "from": {
-                "key_code": "u",
-                "modifiers": { "mandatory": ["left_command", "right_command", "right_control", "right_shift", "right_option"] }
-            },
-            "to": [{ "pointing_button": "button1" }],
-            "type": "basic"
-        },
-       
+           
         {
             "description": " u = page_up",
             "from": {
@@ -353,21 +344,7 @@
             ],
             "type": "basic"
         },
-        {
-            "description": "command + o = mouse right click",
-            "from": {
-                "key_code": "o",
-                "modifiers": { "mandatory": [""left_command", "right_command", "right_control", "right_shift", "right_option"] }
-            },
-            "to": [
-                {
-                    "key_code": "page_down",
-                    "modifiers": ["left_shift"]
-                }
-            ],
-            "type": "basic"
-        },
-        
+               
         
         
         {
