@@ -24,7 +24,7 @@
             "to": [
                 {
                     "key_code": "left_arrow",
-                    "modifiers": ["left_option", "left_shift"]
+                    "modifiers": ["left_option"]
                 }
             ],
             "type": "basic"
