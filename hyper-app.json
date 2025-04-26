@@ -20,15 +20,6 @@
             "type": "basic"
         },
         {
-            "description": "r = terminal",
-            "from": {
-                "key_code": "r",
-                "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
-            },
-            "to": [{ "shell_command": "open -a terminal" }],
-            "type": "basic"
-        },
-        {
             "description": "option + r = iTerm2",
             "from": {
                 "key_code": "r",
